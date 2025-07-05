@@ -1,0 +1,25 @@
+{
+    "users": [
+      {
+        "name": "Phan Trâng Khánh An",
+        "email": "an@gmail.com",
+        "matkhau": "300804",
+        "xacnhanmatkhau": "300804",
+        "avatar": "https://example.com/avatars/nguyenvana.jpg"
+      },
+      {
+        "name": "Trần Thị B",
+        "email": "tranthib@gmail.com",
+        "matkhau": "securepass456",
+        "xacnhanmatkhau": "securepass456",
+        "avatar": "https://example.com/avatars/tranthib.png"
+      },
+      {
+        "name": "Lưu Thế Toàn",
+        "email": "toan@gmail.com",
+        "matkhau": "030404",
+        "xacnhanmatkhau": "030404",
+        "avatar": "assets/avatar.png"
+      }
+    ]
+  }

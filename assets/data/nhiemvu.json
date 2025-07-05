@@ -1,0 +1,46 @@
+{
+  "nhomviec": [
+    {
+      "id": "1",
+      "title": "Học tập",
+      "description": "Các nhiệm vụ liên quan đến học tập",
+      "timeRange": "10:00-17:00",
+      "color": "2196F3",
+      "tasks": [
+        {
+          "id": "1",
+          "title": "Làm bài tập Flutter",
+          "subtitle": "Hoàn thành bài tập tuần 5",
+          "date": "2025-06-10T00:00:00.000Z",
+          "startTime": "14:00",
+          "endTime": "16:00",
+          "isCompleted": false,
+          "userId": "user1",
+          "groupId": "1"
+        }
+      ],
+      "userId": "user1"
+    },
+    {
+      "id": "2",
+      "title": "Thể thao",
+      "description": "Các hoạt động thể thao",
+      "timeRange": "7:00-10:00",
+      "color": "4CAF50",
+      "tasks": [
+        {
+          "id": "2",
+          "title": "Đi bơi",
+          "subtitle": "Hồ bơi trường đại học",
+          "date": "2025-06-11T00:00:00.000Z",
+          "startTime": "08:00",
+          "endTime": "09:30",
+          "isCompleted": false,
+          "userId": "user1",
+          "groupId": "2"
+        }
+      ],
+      "userId": "user1"
+    }
+  ]
+}
