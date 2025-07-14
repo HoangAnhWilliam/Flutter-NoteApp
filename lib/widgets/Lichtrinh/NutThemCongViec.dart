@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:do_an/models/nhomviec.dart';
-import 'package:do_an/item/ThemNhiemVu.dart';
+import 'package:do_an/items/ThemNhiemVu.dart';
 import 'package:do_an/models/nhiemvu.dart';
 
 class NutThemCongViec extends StatelessWidget {

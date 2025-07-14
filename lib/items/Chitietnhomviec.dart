@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import '../Screen/Trangchu.dart';
-import '../Screen/Nhiemvu.dart';
+import '../screens/Trangchu.dart';
+import '../screens/Nhiemvu.dart';
 import '../models/nhomviec.dart';
 import '../models/nhiemvu.dart';
 

@@ -36,6 +36,7 @@ class _TienDoWidgetState extends State<TienDoWidget> {
       appBar: AppBar(
         title: const Text('Tiến độ'),
       ),
+
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
@@ -156,31 +157,31 @@ class _TienDoWidgetState extends State<TienDoWidget> {
           setState(() {
             _selectedIndex = index;
           });
-          if (index == 0) { 
+          if (index == 0) {
             Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (context) => TrangchuWidget()),
             );
           }
-          if (index == 1) { 
+          if (index == 1) {
             Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (context) => LichtrinhWidget()),
             );
           }
-          if (index == 2) { 
+          if (index == 2) {
             Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (context) => LichtrinhWidget()),
             );
           }
-          if (index == 3) { 
+          if (index == 3) {
             Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (context) => TienDoWidget()),
             );
           }
-          if (index == 4) { 
+          if (index == 4) {
             Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (context) => NhiemVu()),

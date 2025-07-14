@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../Screen/Lichtrinh.dart';
-import '../Screen/Nhiemvu.dart';
-import '../Screen/Nhomviec.dart';
-import '../Screen/Tiendo.dart';
-import '../Screen/Trangchu.dart';
+import '../screens/Lichtrinh.dart';
+import '../screens/Nhiemvu.dart';
+import '../screens/Nhomviec.dart';
+import '../screens/Tiendo.dart';
+import '../screens/Trangchu.dart';
 class ChuyentrangWidget extends StatefulWidget {
   const ChuyentrangWidget({Key? key}) : super(key: key);
 

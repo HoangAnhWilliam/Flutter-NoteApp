@@ -4,18 +4,19 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'Tiendo.dart';
-import '../item/Chitietnhomviec.dart';
+import '../items/Chitietnhomviec.dart';
 import 'Lichtrinh.dart';
 import 'Nhiemvu.dart';
 import 'Nhomviec.dart';
 import '../account/Dangnhap.dart';
 import '../account/Dangky.dart';
 import '../account/Taikhoan.dart';
-import '../wiget/Thanhmenu.dart';
-import '../wiget/Chuyentrang.dart';
+import '../widgets/Thanhmenu.dart';
+import '../widgets/Chuyentrang.dart';
 import '../models/user.dart';
 import '../models/nhiemvu.dart';
 import '../models/nhomviec.dart';
+import '../screens/welcomebanner.dart';
 
 class TrangchuWidget extends StatefulWidget {
   @override
@@ -212,16 +213,8 @@ class _TrangchuWidgetState extends State<TrangchuWidget> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Greeting with user name
-              Text(
-                "Xin chào ${_currentUser?.name ?? 'Khách'}!",
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-              ),
-              Text(
-                "Chúc bạn mỗi ngày tốt lành",
-                style: TextStyle(color: Colors.grey[600]),
-              ),
-              SizedBox(height: 16),
+              // Welcome Banner
+              WelcomeBanner(currentUser: _currentUser),
 
               // Work groups section
               Text(

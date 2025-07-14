@@ -6,7 +6,7 @@ import 'Trangchu.dart';
 import 'Lichtrinh.dart';
 import 'Nhiemvu.dart';
 import 'Tiendo.dart';
-import '../item/Themnhomviec.dart';
+import '../items/Themnhomviec.dart';
 import '../account/Dangnhap.dart';
 import '../account/Dangky.dart';
 import '../account/Taikhoan.dart';
