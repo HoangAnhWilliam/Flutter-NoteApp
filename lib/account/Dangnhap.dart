@@ -1,10 +1,18 @@
+
 import 'package:do_an/screens/DieuKhoan.dart';
+
+import 'package:do_an/Screen/DieuKhoan.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 import 'Dangky.dart';
+
 import '../screens/Trangchu.dart';
+
+import '../Screen/Trangchu.dart';
+
 import 'Quenmatkhau.dart';
 import 'Taikhoan.dart';
 import '../models/user.dart';
